@@ -10,5 +10,5 @@ management:
         include: refresh
 
 girl:
-  name: Sammi
-  age: 24
+  name: Amy
+  age: 18
