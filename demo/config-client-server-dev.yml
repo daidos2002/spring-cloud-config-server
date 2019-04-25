@@ -3,6 +3,12 @@ server:
   servlet:
     context-path: /demo
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+
 girl:
   name: Sammi
   age: 40
