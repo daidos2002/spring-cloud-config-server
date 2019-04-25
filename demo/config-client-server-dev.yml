@@ -1,7 +1,7 @@
 server:
   port: 8887
   servlet:
-    context-path: /demo1
+    context-path: /demo
 
 management:
   endpoints:
