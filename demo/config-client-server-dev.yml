@@ -4,5 +4,5 @@ server:
     context-path: /demo
 
 girl:
-  name: Jesica
+  name: Sue
   age: 29
