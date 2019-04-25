@@ -10,5 +10,5 @@ management:
         include: refresh
 
 girl:
-  name: Amy
+  name: Amy Lee
   age: 18
