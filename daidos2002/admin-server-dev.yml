@@ -19,8 +19,8 @@ spring:
     name: admin-server
   # 数据源
   datasource:
-    url: jdbc:mysql://127.0.0.1:3308/xm_skeleton?useUnicode=true&characterEncoding=utf-8&useSSL=false&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
-    username: root
+    url: jdbc:mysql://3.132.120.44:3306/XMS?useUnicode=true&characterEncoding=utf-8&useSSL=false&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
+    username: jason
     password: Aa123456
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.jdbc.Driver
@@ -41,7 +41,7 @@ spring:
         deny:
   # Redis
   redis:
-    host: 192.168.99.100
+    host: 3.132.120.44
     #password: 123456
     # 数据库索引 默认0
     database: 0
@@ -122,7 +122,10 @@ mybatis-plus:
 
 # 日志
 logging:
-  file: D:/logs/com.xm.admin.log
+  file: D:/WebData/logs/XMS/com.xm.admin.log
+#  level.*: DEBUG
+
+debug: true
 
 # 服务发现
 eureka:

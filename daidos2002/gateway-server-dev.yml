@@ -22,7 +22,7 @@ spring:
             - Path=/api/**
   # Redis
   redis:
-    host: 192.168.99.100
+    host: 3.132.120.44
     #password: 123456
     # 数据库索引 默认0
     database: 0
